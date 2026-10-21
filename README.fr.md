@@ -2,7 +2,7 @@
 
 **Un moteur TypeScript qui transforme un LLM local en agent contrôlé et observable — et un monorepo qui le relie à un service Python de classification documentaire.** Permissions d'outils explicites, connecteurs MCP, traces structurées et banc d'évaluation reproductible, le tout exécutable sur du matériel grand public via `llama.cpp`.
 
-[![CI](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml/badge.svg)](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml) [![E2E](https://github.com/Matt95354855/Harness/actions/workflows/mass-e2e.yml/badge.svg)](https://github.com/Matt95354855/Harness/actions/workflows/mass-e2e.yml) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6) ![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-417E38) ![Python](https://img.shields.io/badge/Python-FastAPI-009688) ![Inference](https://img.shields.io/badge/inférence-locale%20%2F%20compatible%20OpenAI-6f42c1)
+[![CI](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml/badge.svg)](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml) [![E2E](https://github.com/Matt95354855/Harness/actions/workflows/mass-e2e.yml/badge.svg)](https://github.com/Matt95354855/Harness/actions/workflows/mass-e2e.yml) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6) ![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-417E38) ![Python](https://img.shields.io/badge/Python-FastAPI-009688) ![Inference](https://img.shields.io/badge/inférence-locale%20%2F%20compatible%20OpenAI-6f42c1) ![License](https://img.shields.io/badge/licence-MIT-green)
 
 [English](README.md) · [Français](README.fr.md)
 
@@ -82,3 +82,7 @@ Implémenté : monorepo unifié, contrat de résultat v1, route de capacités, a
 ## Documentation
 
 [Guide détaillé](docs/GUIDE.fr.md) · [Architecture](docs/architecture.md) · [API](docs/api.md) · [Connexions](docs/connections.md) · [Outils](docs/tools.md) · [Plateforme unifiée](docs/unified-platform.md) · [Validation](docs/validation.md)
+
+## Licence
+
+MIT — voir [LICENSE](LICENSE).

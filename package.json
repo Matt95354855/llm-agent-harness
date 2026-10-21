@@ -2,6 +2,7 @@
   "name": "@matt95354855/agent-harness",
   "version": "0.2.0",
   "private": true,
+  "license": "MIT",
   "description": "A local-first TypeScript agent harness with bounded execution, tools, memory and reproducible offline tests.",
   "type": "module",
   "main": "dist/src/index.js",
