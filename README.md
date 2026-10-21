@@ -1,8 +1,8 @@
-# Harness — local LLM agent runtime + document classification platform
+# LLM Agent Harness — local LLM agent runtime + document classification platform
 
 **A TypeScript runtime that turns a local LLM into a controlled, observable agent — and a monorepo that wires it to a Python document-classification service.** Explicit tool permissions, MCP connectors, structured traces and a reproducible evaluation bench, all runnable on consumer hardware through `llama.cpp`.
 
-[![CI](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml/badge.svg)](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml) [![E2E](https://github.com/Matt95354855/Harness/actions/workflows/mass-e2e.yml/badge.svg)](https://github.com/Matt95354855/Harness/actions/workflows/mass-e2e.yml) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6) ![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-417E38) ![Python](https://img.shields.io/badge/Python-FastAPI-009688) ![Inference](https://img.shields.io/badge/inference-local%20%2F%20OpenAI--compatible-6f42c1) ![License](https://img.shields.io/badge/license-MIT-green)
+[![CI](https://github.com/Matt95354855/llm-agent-harness/actions/workflows/ci.yml/badge.svg)](https://github.com/Matt95354855/llm-agent-harness/actions/workflows/ci.yml) [![E2E](https://github.com/Matt95354855/llm-agent-harness/actions/workflows/mass-e2e.yml/badge.svg)](https://github.com/Matt95354855/llm-agent-harness/actions/workflows/mass-e2e.yml) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6) ![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-417E38) ![Python](https://img.shields.io/badge/Python-FastAPI-009688) ![Inference](https://img.shields.io/badge/inference-local%20%2F%20OpenAI--compatible-6f42c1) ![License](https://img.shields.io/badge/license-MIT-green)
 
 [English](README.md) · [Français](README.fr.md)
 
@@ -50,8 +50,8 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/Matt95354855/Harness.git
-cd Harness
+git clone https://github.com/Matt95354855/llm-agent-harness.git
+cd llm-agent-harness
 npm ci
 npm run demo            # end-to-end run with the mock model, no API key
 npm run check           # lint, typecheck, tests

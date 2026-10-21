@@ -2,7 +2,7 @@
 
 > Guide détaillé (version française d'origine). Pour la vue d'ensemble, voir le [README](../README.md).
 
-![CI](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/Matt95354855/llm-agent-harness/actions/workflows/ci.yml/badge.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-417E38)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6)
 ![Local inference](https://img.shields.io/badge/inference-local%20%2F%20OpenAI--compatible-6f42c1)
@@ -41,10 +41,10 @@ Le [guide de la plateforme](unified-platform.md) détaille les comportements et 
 La recette utilise PostgreSQL/pgvector, Redis, l'API, le worker, Tesseract et les embeddings réels. Les PDF/DOCX synthétiques contiennent texte natif, image et tableau. Elle vérifie le profil, l'OCR, la classification par règles, la déduplication, le feedback, la recherche vectorielle et le refus d'accès sans clé.
 
 - **98 tests Harness** et **10 tests Python ciblés** réussis lors de l'étape 4.
-- [Parcours réel avec profilage : réussi en 2 min 28 s](https://github.com/Matt95354855/Harness/actions/runs/36142880989).
+- [Parcours réel avec profilage : réussi en 2 min 28 s](https://github.com/Matt95354855/llm-agent-harness/actions/runs/36142880989).
 - Le [rapport de validation documentaire](document-validation.md) distingue cette preuve des tests historiques et des validations restantes.
-- Étape 6 : 98 tests Harness et 36 tests Python ciblés réussis ; [parcours réel avec garde-fous réussi](https://github.com/Matt95354855/Harness/actions/runs/36535694357). Détails dans le [bilan de fusion](classification-fusion.md).
-- Étape 7 : 98 tests Harness et 56 tests Python ciblés réussis ; [parcours réel avec rapport d'évaluation réussi](https://github.com/Matt95354855/Harness/actions/runs/36589037305). Deux documents synthétiques correctement classés ne constituent pas une mesure de précision métier.
+- Étape 6 : 98 tests Harness et 36 tests Python ciblés réussis ; [parcours réel avec garde-fous réussi](https://github.com/Matt95354855/llm-agent-harness/actions/runs/36535694357). Détails dans le [bilan de fusion](classification-fusion.md).
+- Étape 7 : 98 tests Harness et 56 tests Python ciblés réussis ; [parcours réel avec rapport d'évaluation réussi](https://github.com/Matt95354855/llm-agent-harness/actions/runs/36589037305). Deux documents synthétiques correctement classés ne constituent pas une mesure de précision métier.
 
 La recette pilote directement l'adaptateur ; elle n'évalue pas le choix autonome des outils par un LLM, la précision d'un TNN entraîné ou la charge de production.
 
@@ -63,7 +63,7 @@ Les historiques Git des deux projets sont conservés. Le service Python reste é
 
 Le harness peut relier un LLM local à des serveurs MCP, GitHub, des dossiers locaux autorisés, Google Drive et Internet. Chaque connexion reste désactivée par défaut et ne se charge que lorsqu'elle est explicitement configurée et autorisée.
 
-[![CI](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml/badge.svg)](https://github.com/Matt95354855/Harness/actions/workflows/ci.yml)
+[![CI](https://github.com/Matt95354855/llm-agent-harness/actions/workflows/ci.yml/badge.svg)](https://github.com/Matt95354855/llm-agent-harness/actions/workflows/ci.yml)
 ![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A5%2022.13-417E38)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6)
 
@@ -107,8 +107,8 @@ Ce résultat décrit une exécution précise : **5 scénarios réussis, 1 scéna
 Prérequis : **Node.js 22.13 ou plus récent**, avec npm. La CI couvre Node.js 22 et 24.
 
 ```bash
-git clone https://github.com/Matt95354855/Harness.git
-cd Harness
+git clone https://github.com/Matt95354855/llm-agent-harness.git
+cd llm-agent-harness
 npm ci
 npm run demo
 ```

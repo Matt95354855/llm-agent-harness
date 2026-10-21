@@ -49,7 +49,7 @@ const cases: Case[] = [
   {
     name: 'GitHub par MCP', expectedTool: 'mcp_github_get_file_contents', env: { MCP_CONFIG_PATH: 'config/mcp.example.json' },
     optionalWhen: () => process.env.GITHUB_TOKEN ? undefined : 'GITHUB_TOKEN absent',
-    prompt: 'Utilise obligatoirement mcp_github_get_file_contents pour lire package.json dans le dépôt Matt95354855/Harness. Donne uniquement le nom du paquet.',
+    prompt: 'Utilise obligatoirement mcp_github_get_file_contents pour lire package.json dans le dépôt Matt95354855/llm-agent-harness. Donne uniquement le nom du paquet.',
     prove: call => contains(call, '@matt95354855/agent-harness'),
   },
   {
